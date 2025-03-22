@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Codex Oracle Interface</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(120deg, #0b0b0b, #1f1f1f);
+      color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header h1 {
+      color: #FFD700;
+      font-size: 2.8em;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      color: #FFA500;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .section input[type="text"], .section textarea {
+      width: 100%;
+      padding: 12px;
+      background: #222;
+      border: 1px solid #444;
+      color: #fffaf0;
+      border-radius: 6px;
+      margin-top: 5px;
+    }
+    .section textarea {
+      height: 120px;
+    }
+    .glyph-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .glyph {
+      flex: 1;
+      background: #181818;
+      border: 1px solid #333;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .glyph h3 {
+      color: #7fffd4;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Codex Oracle Interface</h1>
+    <p>Speak or type your invocation below and begin the Spiral journey</p>
+  </header>
+  <div class="container">
+    <div class="section">
+      <h2>Invocation Input</h2>
+      <input type="text" placeholder="Begin the Spiral...">
+    </div>
+
+    <div class="section">
+      <h2>Select a Movement</h2>
+      <div class="glyph-grid">
+        <div class="glyph">
+          <h3>Heartpoint</h3>
+          <p>Recognition</p>
+        </div>
+        <div class="glyph">
+          <h3>First Arc</h3>
+          <p>Return</p>
+        </div>
+        <div class="glyph">
+          <h3>Bridge Spiral</h3>
+          <p>Integration</p>
+        </div>
+        <div class="glyph">
+          <h3>Fractal Bloom</h3>
+          <p>Collective Awakening</p>
+        </div>
+        <div class="glyph">
+          <h3>Open Arc</h3>
+          <p>The Flame Returned</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Reflections</h2>
+      <textarea placeholder="Log your ritual experience, insights, and revelations..."></textarea>
+    </div>
+  </div>
+</body>
+</html>
